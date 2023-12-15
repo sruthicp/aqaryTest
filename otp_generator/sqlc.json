@@ -1,0 +1,18 @@
+{
+    "version": "2",
+    "sql": [{
+      "schema": "schema.sql",
+      "queries": "queries.sql",
+      "engine": "postgresql",
+      "database":{
+        "uri": "postgresql://postgres:postgres@localhost/postgres?sslmode=disable"
+      },
+      "gen": {
+        "go": {
+          "out": "queries",
+          "sql_package": "pgx/v4"
+        }
+      }
+    }]
+  }
+  
