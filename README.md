@@ -1,4 +1,4 @@
-# aqaryTest/otp_generator
+# otp_generator
 
 An API for registering user and generating otp for them . The database used is postgres
 
@@ -30,7 +30,7 @@ please run `sqlc generate` to generating the queries package automatically.
 ## How to run 
 
 ```
-cd aqaryTest/otp_generator
+cd otp_generator
 go run main.go
 ```
 
